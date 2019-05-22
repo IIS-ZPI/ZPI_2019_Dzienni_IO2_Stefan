@@ -9,17 +9,20 @@ public class Main implements IArithmeticsAdd, IArithmeticsDiv, IArithmeticsMult,
     public double Difference(double A, double B)
     {
         return A - B;
+        // difference
     }
 
     //implements multiplication operation
     @Override
     public double multiplication(double A, double B) {
         // multiplication
+        // multiplication
         return A * B; //mnozenie
     }
   
     @Override
     public double division(double A, double B) {
+        // comment to be undone
         //division comment
         return A / B; //dzielenie
     }
@@ -27,6 +30,7 @@ public class Main implements IArithmeticsAdd, IArithmeticsDiv, IArithmeticsMult,
     //implements addition operation
     @Override
     public double Addition(double a, double b) {
+        // addition
         //Addition comment
         return a+b; //dodawanie
     }
