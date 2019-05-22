@@ -7,7 +7,7 @@ public class Main implements IArithmeticsAdd, IArithmeticsDiv, IArithmeticsMult,
     @Override
     public double Difference(double A, double B)
     {
-        return A - B;
+        return A - B; //odejmowanie
     }
   
     @Override
@@ -17,7 +17,7 @@ public class Main implements IArithmeticsAdd, IArithmeticsDiv, IArithmeticsMult,
   
     @Override
     public double division(double A, double B) {
-        return A / B; //odejmowanie
+        return A / B; //dzielenie
     }
 
     @Override
