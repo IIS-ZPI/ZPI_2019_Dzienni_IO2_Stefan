@@ -12,12 +12,12 @@ public class Main implements IArithmeticsAdd, IArithmeticsDiv, IArithmeticsMult,
   
     @Override
     public double multiplication(double A, double B) {
-        return A * B;
+        return A * B; //mnozenie
     }
   
     @Override
     public double division(double A, double B) {
-        return A / B;
+        return A / B; //odejmowanie
     }
 
     @Override
