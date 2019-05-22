@@ -4,12 +4,14 @@ public class Main implements IArithmeticsAdd, IArithmeticsDiv, IArithmeticsMult,
         System.out.println("ZPI_2019_Dzienni_IO2_Stefan, developer - Dragoonov, DevOps - 209281-LeszekCelary, Dragoonov, tester - M4jk, developer - mateusznowak0");
     }
 
+    //implements subtraction operation
     @Override
     public double Difference(double A, double B)
     {
         return A - B;
     }
-  
+
+    //implements multiplication operation
     @Override
     public double multiplication(double A, double B) {
         return A * B;
@@ -20,6 +22,7 @@ public class Main implements IArithmeticsAdd, IArithmeticsDiv, IArithmeticsMult,
         return A / B;
     }
 
+    //implements addition operation
     @Override
     public double Addition(double a, double b) {
         return a+b;
