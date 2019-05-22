@@ -8,6 +8,7 @@ public class Main implements IArithmeticsAdd, IArithmeticsDiv, IArithmeticsMult,
     public double Difference(double A, double B)
     {
         return A - B;
+        // difference
     }
   
     @Override
