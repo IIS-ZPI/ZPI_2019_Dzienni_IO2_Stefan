@@ -9,7 +9,9 @@ public class Main implements IArithmeticsAdd, IArithmeticsDiv, IArithmeticsMult,
     {
         return A - B;
     }
-  
+
+
+    //implements multiplication operation
     @Override
     public double multiplication(double A, double B) {
         return A * B;
