@@ -14,6 +14,7 @@ public class Main implements IArithmeticsAdd, IArithmeticsDiv, IArithmeticsMult,
     @Override
     public double multiplication(double A, double B) {
         return A * B;
+        // multiplication
     }
   
     @Override
@@ -24,5 +25,6 @@ public class Main implements IArithmeticsAdd, IArithmeticsDiv, IArithmeticsMult,
     @Override
     public double Addition(double a, double b) {
         return a+b;
+        // addition
     }
 }
