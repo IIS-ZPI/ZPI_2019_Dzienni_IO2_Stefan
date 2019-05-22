@@ -13,15 +13,18 @@ public class Main implements IArithmeticsAdd, IArithmeticsDiv, IArithmeticsMult,
     @Override
     public double multiplication(double A, double B) {
         return A * B;
+        // multiplication
     }
   
     @Override
     public double division(double A, double B) {
         return A / B;
+        //division comment
     }
 
     @Override
     public double Addition(double a, double b) {
         return a+b;
+        //Addition comment
     }
 }
