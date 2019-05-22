@@ -4,6 +4,7 @@ public class Main implements IArithmeticsAdd, IArithmeticsDiv, IArithmeticsMult,
         System.out.println("ZPI_2019_Dzienni_IO2_Stefan, developer - Dragoonov, DevOps - 209281-LeszekCelary, Dragoonov, tester - M4jk, developer - mateusznowak0");
     }
 
+    //implements subtraction operation
     @Override
     public double Difference(double A, double B)
     {
