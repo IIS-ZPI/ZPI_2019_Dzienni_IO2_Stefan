@@ -10,7 +10,8 @@ public class Main implements IArithmeticsAdd, IArithmeticsDiv, IArithmeticsMult,
     {
         return A - B;
     }
-  
+
+    //implements multiplication operation
     @Override
     public double multiplication(double A, double B) {
         return A * B;
@@ -21,6 +22,7 @@ public class Main implements IArithmeticsAdd, IArithmeticsDiv, IArithmeticsMult,
         return A / B;
     }
 
+    //implements addition operation
     @Override
     public double Addition(double a, double b) {
         return a+b;
