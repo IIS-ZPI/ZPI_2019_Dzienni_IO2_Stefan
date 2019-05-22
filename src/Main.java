@@ -9,7 +9,9 @@ public class Main {
     {
         return A - B;
     }
-  
+
+
+    //implements multiplication operation
     @Override
     public double multiplication(double A, double B) {
         return A * B; //mnozenie
